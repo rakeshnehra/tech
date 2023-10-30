@@ -11,3 +11,26 @@ arr[10] = 11
 console.log(arr);
 console.log(arr.length);
 console.log(arr[2]);
+
+let  obj = {
+    name: "Ram",
+    id: 23
+}
+
+
+<<<<<<< HEAD
+console.log(typeof obj);
+
+
+let  obj1 = {
+    name: "Ram",
+    id: 23,
+    fullname: "Ram raj",
+    newid: 231
+}
+
+
+console.log(obj1);
+=======
+console.log(typeof obj);
+>>>>>>> 71e44692812c895b0a4c42ad2fb4e96c9f852d83
