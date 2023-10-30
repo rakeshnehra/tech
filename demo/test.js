@@ -18,7 +18,7 @@ let  obj = {
 }
 
 
-<<<<<<< HEAD
+
 console.log(typeof obj);
 
 
@@ -31,6 +31,4 @@ let  obj1 = {
 
 
 console.log(obj1);
-=======
 console.log(typeof obj);
->>>>>>> 71e44692812c895b0a4c42ad2fb4e96c9f852d83
