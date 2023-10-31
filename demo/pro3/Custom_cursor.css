@@ -1,0 +1,18 @@
+*{
+    color: black;
+}
+.custom {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    opacity: 1;
+    mix-blend-mode: difference;
+
+    /* transition: all linear 0.2s; */
+    transition: transform 500ms;
+
+    /* pointer-events: none; */
+    /* top: 0; */
+  }
