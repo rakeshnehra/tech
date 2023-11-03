@@ -1,4 +1,4 @@
-const clock = document.getElementById('clock');
+const clocks = document.getElementById('clock');
 // const clock = document.querySelector('#clock')
 
 setInterval(function () {

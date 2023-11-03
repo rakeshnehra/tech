@@ -11,7 +11,7 @@
     mix-blend-mode: difference;
 
     /* transition: all linear 0.2s; */
-    transition: transform 500ms;
+    transition: transform 1000ms;
 
     /* pointer-events: none; */
     /* top: 0; */
