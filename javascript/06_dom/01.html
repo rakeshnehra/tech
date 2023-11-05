@@ -27,9 +27,11 @@
             <li class="list-item">four</li>
         </ul>
     </div>
+
+    <div id="timer"></div>
 </body>
 <script>
-    document.getElementById('title')
+    // document.getElementById('title')
     
 //     document.getElementById('title')
 // <h1 id=​"title" class=​"heading">​…​</h1>​
@@ -39,5 +41,15 @@
 // 'heading'
 // document.getElementById('title').getAttribute('id')
 // 'title'
+
+ const time = document.getElementById('timer')
+ setInterval(function()  {
+    let currenttime = new Date()
+//  console.log(currenttime.toLocaleTimeString());
+ timer.innerHTML = currenttime.toLocaleTimeString()
+    
+ }, 1000);
+
+
 </script>
 </html>
